@@ -15,9 +15,7 @@ def Tree(branch, t):
                 t.color('mediumturquoise')  # 蓝色
             else:
                 t.color('lightsalmon')#橙色
-
             t.pensize(branch / 3)
-
         elif branch < 8:
             if random.randint(0, 2) == 0:
                 t.color('mediumslateblue')  # 紫色
@@ -26,7 +24,6 @@ def Tree(branch, t):
             else:
                 t.color('gold')#黄色
             t.pensize(branch / 2)
-
         else:
             t.color('sienna')
             t.pensize(branch / 10)
